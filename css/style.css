@@ -1,0 +1,83 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:Arial;
+	font-size:14px;
+	color:#555;}
+body{
+	height:1000px;
+	background:#E9E9E9;}
+#header{
+	background:#F44336;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);}
+#logo, #menu{
+	height:70px;
+	line-height:70px;
+	}
+#logo a{
+	font-size:18px;
+	color:#FFF;
+	text-decoration:none;
+	text-transform:uppercase;}	
+#menu a{
+	color:#FFF;
+	text-decoration:none;}
+
+#body{
+	margin-top:85px;}
+
+
+.card{
+    background: #fff;
+    min-height: 50px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    margin-bottom: 30px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+}	
+.card .header {
+    color: #555;
+    padding: 20px;
+    position: relative;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.35);
+}
+.card .header h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+    color: #111;
+}
+.card .header h2 small {
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+    color: #999;
+    line-height: 15px;
+}
+.card .body {
+    font-size: 14px;
+    color: #555;
+    padding: 20px;
+}
+.table-responsive {
+    min-height: .01%;
+    overflow-x: auto;
+}
+table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > th, .table > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > td {
+    border-top: 0;
+}
+
+#add-book{
+	background:#F44336;
+	border:none;}
+#add-book:hover{
+	background:#ed3123;}
+
+#footer a{
+	font-weight:bold;
+	color:#F44336;}
+.body i:hover{
+	color:#F44336;}
